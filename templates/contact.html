@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Blog - About</title>
+    <title>Your Blog - Contact</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
@@ -23,9 +23,25 @@
 
     <!-- Main Content Section -->
     <div class="container mt-5">
-        <h1>About Us</h1>
-        <p>Provide information about yourself or your team here.</p>
-        <!-- Add more details about yourself or your team -->
+        <h1>Contact Us</h1>
+        <p>Feel free to reach out to us using the form below.</p>
+
+        <!-- Contact Form -->
+        <form>
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
     </div>
 
     <!-- Bootstrap JS (optional, for some features) -->
